@@ -1,4 +1,5 @@
-# Albatta! Kodni oddiy va tushunarli qilib tushuntiraman. Bizning dasturimiz **tibbiyot markazi** uchun ishlaydi va quyidagi asosiy vazifalarni bajaradi:
+# Albatta! Kodni oddiy va tushunarli qilib tushuntiraman. Bizning dasturimiz
+# **tibbiyot markazi** uchun ishlaydi va quyidagi asosiy vazifalarni bajaradi:
 #
 # 1. **Shifokor qo'shish**.
 # 2. **Bemor qo'shish**.
@@ -17,7 +18,8 @@
 # - `Odam` sinfi barcha odamlar uchun umumiy xususiyatlarni belgilaydi:
 #   - `_ism` (shaxsning ismi).
 #   - `_yosh` (shaxsning yoshi).
-# - Bu sinf **abstrakt**, ya'ni uni to'g'ridan-to'g'ri ishlatib bo'lmaydi. Buning o'rniga uning vorislari (`Shifokor` va `Bemor`) ishlatiladi.
+# - Bu sinf **abstrakt**, ya'ni uni to'g'ridan-to'g'ri ishlatib bo'lmaydi.
+# Buning o'rniga uning vorislari (`Shifokor` va `Bemor`) ishlatiladi.
 # - `malumot_olish()` metodi har bir vorisda turlicha ishlaydi.
 #
 # ```python
@@ -96,7 +98,8 @@
 #         self.yakshanba = yakshanba
 #
 #     def malumot_olish(self):
-#         return f"Ish vaqti: {self.boshlanish}-{self.tugash}, Abet: {self.abet}, Shanba: {self.shanba}, Yakshanba: {self.yakshanba}"
+#         return f"Ish vaqti: {self.boshlanish}-{self.tugash},
+#         Abet: {self.abet}, Shanba: {self.shanba}, Yakshanba: {self.yakshanba}"
 # ```
 #
 # ---
@@ -148,7 +151,8 @@
 #
 #     def malumot_saqlash(self, fayl_nomi="jeyson.json"):
 #         data = {
-#             "shifokorlar": [{"ism": d._ism, "yosh": d._yosh, "mutaxassislik": d.mutaxassislik} for d in self.shifokorlar],
+#             "shifokorlar": [{"ism": d._ism, "yosh": d._yosh, "mutaxassislik": d.mutaxassislik} for d in
+#             self.shifokorlar],
 #             "bemorlar": [{"ism": p._ism, "yosh": p._yosh, "kasallik": p.kasallik} for p in self.bemorlar],
 #             "qabullar": [{"shifokor": a.shifokor._ism, "bemor": a.bemor._ism, "sana": a.sana} for a in self.qabullar],
 #             "ish_vaqti": {
@@ -297,7 +301,8 @@
 #
 # ### Natija:
 #
-# Dastur ishga tushganda menyu paydo bo'ladi. Foydalanuvchi menyu orqali shifokor qo'shishi, bemor qo'shishi, qabul rejalashtirishi, ma'lumotlarni ko'rishi, shifokor yoki bemorni ro'yxatdan olib tashlashi va ma'lumotlarni saqlashi mumkin.
+# Dastur ishga tushganda menyu paydo bo'ladi. Foydalanuvchi menyu orqali shifokor qo'shishi, bemor qo'shishi,
+# qabul rejalashtirishi, ma'lumotlarni ko'rishi, shifokor yoki bemorni ro'yxatdan olib tashlashi va ma'lumotlarni saqlashi mumkin.
 #
 # ---
 #
