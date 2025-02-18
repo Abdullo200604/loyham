@@ -1,0 +1,24 @@
+{
+    "doktorlar": [
+        {
+            "ism": "Dr. Ali",
+            "mutaxassislik": "Kardiologiya"
+        },
+        {
+            "ism": "soliha",
+            "mutaxassislik": "hamshira"
+        }
+    ],
+    "bemorlar": [
+        {
+            "ism": "Karima",
+            "yosh": 30,
+            "tibbiy_tarix": [
+                {
+                    "kasallik": "Gipertoniya",
+                    "sana": "2023-10-01"
+                }
+            ]
+        }
+    ]
+}
