@@ -1,24 +1,18 @@
 {
-    "doktorlar": [
+    "shifokorlar": [],
+    "bemorlar": [],
+    "qabullar": [
         {
-            "ism": "Dr. Ali",
-            "mutaxassislik": "Kardiologiya"
-        },
-        {
-            "ism": "soliha",
-            "mutaxassislik": "hamshira"
+            "shifokor": ";skcbiavb",
+            "bemor": "chvagucbsc",
+            "sana": "2008.12.22"
         }
     ],
-    "bemorlar": [
-        {
-            "ism": "Karima",
-            "yosh": 30,
-            "tibbiy_tarix": [
-                {
-                    "kasallik": "Gipertoniya",
-                    "sana": "2023-10-01"
-                }
-            ]
-        }
-    ]
+    "ish_vaqti": {
+        "boshlanish": "08:00",
+        "tugash": "18:00",
+        "abet": "12:00-13:00",
+        "shanba": "08:00-12:00",
+        "yakshanba": "Dam olish"
+    }
 }

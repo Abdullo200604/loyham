@@ -1,0 +1,30 @@
+{
+    "shifokorlar": [
+        {
+            "ism": "Ali Karimov",
+            "yosh": 50,
+            "mutaxassislik": "Nevrolog"
+        }
+    ],
+    "bemorlar": [
+        {
+            "ism": "Shahnoza",
+            "yosh": 28,
+            "kasallik": "Gripp"
+        }
+    ],
+    "qabullar": [
+        {
+            "shifokor": "Ali Karimov",
+            "bemor": "Shahnoza",
+            "sana": "2025-02-18"
+        }
+    ],
+    "ish_vaqti": {
+        "boshlanish": "08:00",
+        "tugash": "18:00",
+        "abet": "12:00-13:00",
+        "shanba": "08:00-12:00",
+        "yakshanba": "Dam olish"
+    }
+}
