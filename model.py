@@ -1,7 +1,6 @@
 import json
 from abc import ABC, abstractmethod
 
-# Abstrakt sinf (Odam)
 class Odam(ABC):
     def __init__(self, ism, yosh):
         self._ism = ism  # Inkapsulyatsiya
@@ -11,7 +10,7 @@ class Odam(ABC):
     def malumot_olish(self):
         pass
 
-# Shifokor sinfi (Odamdan meros olgan)
+# Shifokor (Odamdan meros olgan)
 class Shifokor(Odam):
     def __init__(self, ism, yosh, mutaxassislik):
         super().__init__(ism, yosh)

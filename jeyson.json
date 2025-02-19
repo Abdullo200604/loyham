@@ -1,11 +1,23 @@
 {
-    "shifokorlar": [],
-    "bemorlar": [],
+    "shifokorlar": [
+        {
+            "ism": "nonnon",
+            "yosh": 68,
+            "mutaxassislik": "kjnkjbb"
+        }
+    ],
+    "bemorlar": [
+        {
+            "ism": "huhbun",
+            "yosh": 854898,
+            "kasallik": "iinnununl,o5"
+        }
+    ],
     "qabullar": [
         {
-            "shifokor": ";skcbiavb",
-            "bemor": "chvagucbsc",
-            "sana": "2008.12.22"
+            "shifokor": "nonnon",
+            "bemor": "huhbun",
+            "sana": "1111.22.33"
         }
     ],
     "ish_vaqti": {
