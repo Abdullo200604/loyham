@@ -2,7 +2,7 @@ from model import Shifokor, Bemor, TibbiyotMarkazi
 
 # Interaktiv menyu
 def menu():
-    print("\n--- Tibbiyot Markazi Menyusi ---")
+    print("\n--- Abdulloh Tibbiyot Markazi Menyusi ---")
     print("1. Shifokor qo'shish")
     print("2. Bemor qo'shish")
     print("3. Qabul rejalashtirish")

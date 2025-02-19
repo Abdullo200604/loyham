@@ -1,6 +1,7 @@
 import json
 from abc import ABC, abstractmethod
 
+
 class Odam(ABC):
     def __init__(self, ism, yosh):
         self._ism = ism  # Inkapsulyatsiya
@@ -9,6 +10,7 @@ class Odam(ABC):
     @abstractmethod
     def malumot_olish(self):
         pass
+
 
 # Shifokor (Odamdan meros olgan)
 class Shifokor(Odam):
@@ -19,6 +21,7 @@ class Shifokor(Odam):
     def malumot_olish(self):
         return f"Dr. {self._ism}, {self.mutaxassislik}, {self._yosh} yosh"
 
+
 # Bemor sinfi (Odamdan meros olgan)
 class Bemor(Odam):
     def __init__(self, ism, yosh, kasallik):
@@ -27,6 +30,7 @@ class Bemor(Odam):
 
     def malumot_olish(self):
         return f"Bemor {self._ism}, {self.kasallik}, {self._yosh} yosh"
+
 
 # Qabul sinfi
 class Qabul:
@@ -37,6 +41,7 @@ class Qabul:
 
     def tafsilotlar(self):
         return f"Qabul: {self.bemor._ism} {self.shifokor._ism} bilan {self.sana} kuni"
+
 
 # Ish vaqti sinfi
 class IshVaqti:
@@ -49,6 +54,7 @@ class IshVaqti:
 
     def malumot_olish(self):
         return f"Ish vaqti: {self.boshlanish}-{self.tugash}, Abet: {self.abet}, Shanba: {self.shanba}, Yakshanba: {self.yakshanba}"
+
 
 # Tibbiyot markazi sinfi
 class TibbiyotMarkazi:
@@ -86,7 +92,8 @@ class TibbiyotMarkazi:
 
     def malumot_saqlash(self, fayl_nomi="jeyson.json"):
         data = {
-            "shifokorlar": [{"ism": d._ism, "yosh": d._yosh, "mutaxassislik": d.mutaxassislik} for d in self.shifokorlar],
+            "shifokorlar": [{"ism": d._ism, "yosh": d._yosh, "mutaxassislik": d.mutaxassislik} for d in
+                            self.shifokorlar],
             "bemorlar": [{"ism": p._ism, "yosh": p._yosh, "kasallik": p.kasallik} for p in self.bemorlar],
             "qabullar": [{"shifokor": a.shifokor._ism, "bemor": a.bemor._ism, "sana": a.sana} for a in self.qabullar],
             "ish_vaqti": {
